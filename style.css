@@ -16,12 +16,13 @@ h1{
     height: 80px;
     display: block;
     background-color: bisque;
+    
 }
 html {
     background: linear-gradient(45deg, #ff9800, #00000038);
 }
 body {
     display: flexbox;
-    justify-content: space-between;
+
 
 }
