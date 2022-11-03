@@ -1,15 +1,27 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    width: 10px;
+    padding: 20px;
+    height: 20px;
+    border: 20px;
+    
+}
+.Header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: bisque;
+}
+html {
+    background: linear-gradient(45deg, #ff9800, #00000038);
 }
 body {
     display: flexbox;
-    
-}
-
-    h1{
-display: flex
-
+    justify-content: space-between;
 
 }
