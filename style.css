@@ -1,9 +1,7 @@
 *{
     margin:0;
     padding:0;
-    list-style: none;
-    text-decoration: none;
-}
+    }
 h1{
     width: 10px;
     padding: 20px;
@@ -11,18 +9,63 @@ h1{
     border: 20px;
     
 }
-.Header{
+header{
+    display: flex;
     width: 100%;
     height: 80px;
     display: block;
-    background-color: bisque;
+    background: rgb(178,199,199);
+    background: linear-gradient(0deg, rgba(178,199,199,1) 0%, rgba(107,107,106,1) 100%);
+    
     
 }
+
+
 html {
-    background: linear-gradient(45deg, #ff9800, #00000038);
+    background: linear-gradient(100deg, #888073, #00000038);
+    
 }
+
+
 body {
-    display: flexbox;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+.work{
+    margin: 10px;
+    padding: 10px;
+    box-sizing:border-box; 
+
+}
+.about-me{ 
+    background: rgb(143, 143, 147);
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    float: right;
+    margin-right: 5px;
+}
+.work {
+
+  width:auto;
+  border: 20px solid rgb(243, 154, 60);
+  padding: 60px;
+  margin: 0px; 
+  
+}   
+ 
+.squares {
+        
+        height: 100px;
+        width: auto;
+        margin: 60px;
+        border: 20px solid rgb(5, 4, 3);
+        background-color: rgb(93, 38, 197);
+ }
+ 
+ 
